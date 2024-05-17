@@ -6,7 +6,7 @@ import (
  "time"
 )
 
-// generateNewBlockWithPoW generates a new block in the blockchain using Proof of Work.
+// GenerateNewBlockWithPoW generates a new block in the blockchain using Proof of Work.
 func GenerateNewBlockWithPoW(prevBlock Block, data string, difficulty int) Block {
 	var nonce int
 	timestamp := time.Now().Unix()

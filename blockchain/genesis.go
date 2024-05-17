@@ -4,7 +4,7 @@ import (
  "time"
 )
 
-// createGenesisBlock creates the first block in the blockchain (genesis block).
+// CreateGenesisBlock creates the first block in the blockchain (genesis block).
 func CreateGenesisBlock(difficulty int) Block {
 	timestamp := time.Now().Unix()
 	genesisBlock := Block{
